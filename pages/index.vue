@@ -49,7 +49,7 @@
 
 
     v-container  
-      h1.text-center Sports
+      h1.text-center.black--text Sports
       v-row
         v-card.d-inline-flex.pa-4.ma-4.deep-purple.lighten-5(v-for="(value, key) in sports")
             v-row.align-center
