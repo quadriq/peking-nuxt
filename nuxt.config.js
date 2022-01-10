@@ -4,15 +4,15 @@ export default {
     target: 'static',
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        titleTemplate: '%s - peking-nuxt',
-        title: 'peking-nuxt',
+        titleTemplate: 'Winter Games 2022 App',
+        title: 'Winter Games 2022 App',
         htmlAttrs: {
             lang: 'en'
         },
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: '' },
+            { hid: 'description', name: 'description', content: 'App to follow Winter Olympics 2022' },
             { name: 'format-detection', content: 'telephone=no' }
         ],
         link: [
