@@ -9,32 +9,37 @@
             :src="require('@/assets/icons/app_icon.png')"
             alt="logo"
           )
-        v-toolbar-title.ml-2
+        v-toolbar-title.ml-2.white--text
           | Winter Games 2022 App
         v-spacer
 
       v-container
         v-row.align-center(justify-center)
           v-col
-            div.text-center.text-md-left
+            div.text-center.text-md-left.mt-6
               h1.mb-2.font-weight-bold.white--text
                 | Follow Winter Olympics 2022
-              h4.mb-2.font-weight-bold.white--text
-                | 
+              p.mb-2.font-weight-bold.white--text
+                | Unoficial app for  Winter games in Beijing/Peking
               v-btn(
                     large
                     href="https://apps.apple.com/us/app/winter-games-2022/id1599727786"
                     target="_blank"
                     color="primary"
                     
-              ) IOS App
+              )
+                v-icon mdi-apple
+                .pl-2 iPhone
+                
               
               v-btn.ml-4(
                     large
                     href="https://play.google.com/store/apps/details?id=com.quadriq.pksport"
                     target="_blank"
                     color="primary"
-              ) Android App
+              )
+                v-icon mdi-google-play
+                .pl-2 Android
           v-col
             v-img(
               :src="require('@/assets/images/screens/header.png')"
@@ -48,14 +53,10 @@
     //-       v-img(src="require('@/assets/images/screens/s1.jpg')" max-height=600 max-width=100)
 
 
-    v-container  
-      h1.text-center.black--text Sports
-      v-row
-        v-card.d-inline-flex.pa-4.ma-4.deep-purple.lighten-5(v-for="(value, key) in sports")
-            v-row.align-center
-              v-img.ma-4(:src="require('@/assets/icons/sports/ic_' + key + '.png')" max-height=50 max-width=50 )
-              h2.ma-4.black--text {{ value}}
-              | &nbsp;&nbsp;&nbsp;&nbsp;
+    v-container
+      Olympics
+    v-container
+      Sports
     v-container
       
         
@@ -79,26 +80,10 @@
 
 <script>
 
+import Olympics from "~/components/content/Olympics.vue"
+import Sports from "~/components/content/Sports.vue"
 
 export default {
-  data: () => ({
-    sports: {
-        "as": "Alpine Skiing",
-        "bi": "Biathlon",
-        "bo": "Bobsleigh",
-        "cr": "Cross-Country Skiing",
-        "cu": "Curling",
-        "fi": "Figure Skating",
-        "fr": "Freestyle Skiing",
-        "ho": "Ice Hockey",
-        "lu": "Luge",
-        "no": "Nordic Combined",
-        "sh": "Short Track Speed Skating",
-        "sj": "Ski Jumping",
-        "sk": "Skeleton",
-        "sn": "Snowboard",
-        "sp": "Speed Skating"
-    }
-  }),
+  components: {Olympics, Sports},
 }
 </script>
