@@ -4,15 +4,15 @@ export default {
     target: 'static',
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        titleTemplate: 'Winter Games 2022 App',
-        title: 'Winter Games 2022 App',
+        titleTemplate: 'Winter Games 2022 - Beijing - Mobile App',
+        title: 'Winter Games 2022 - Beijing - Mobile App',
         htmlAttrs: {
             lang: 'en'
         },
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'App to follow Winter Olympics 2022' },
+            { hid: 'description', name: 'description', content: 'App to follow Winter Olympics 2022 in Bejing / Peking, China' },
             { name: 'format-detection', content: 'telephone=no' }
         ],
         link: [

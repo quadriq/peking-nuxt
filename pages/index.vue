@@ -54,6 +54,8 @@
 
 
     v-container
+      Theapp
+    v-container
       Olympics
     v-container
       Sports
@@ -81,9 +83,10 @@
 <script>
 
 import Olympics from "~/components/content/Olympics.vue"
+import Theapp from "~/components/content/Theapp.vue"
 import Sports from "~/components/content/Sports.vue"
 
 export default {
-  components: {Olympics, Sports},
+  components: {Olympics, Sports, Theapp},
 }
 </script>
