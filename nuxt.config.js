@@ -40,6 +40,8 @@ export default {
     modules: [
         // https://go.nuxtjs.dev/axios
         '@nuxtjs/axios',
+        '@nuxtjs/robots',
+        '@nuxtjs/sitemap'
     ],
 
     // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -54,5 +56,16 @@ export default {
     },
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
-    build: {}
+    build: {},
+
+    robots: {
+        UserAgent: '*',
+        Allow: '/'
+    },
+
+    sitemap: {
+        hostname: 'https://games2022.app',
+        gzip: true,
+        exclude: []
+    }
 }
