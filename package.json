@@ -20,7 +20,7 @@
         "vue-server-renderer": "^2.6.14",
         "vue-template-compiler": "^2.6.14",
         "vuetify": "^2.6.1",
-        "webpack": "^4.46.0"
+        "webpack": "^5.66.0"
     },
     "devDependencies": {
         "@nuxtjs/google-analytics": "^2.4.0",
@@ -29,6 +29,6 @@
         "pug-plain-loader": "^1.1.0",
         "push-dir": "^0.4.1",
         "sass": "^1.47.0",
-        "sass-loader": "10"
+        "sass-loader": "10.1.1"
     }
 }

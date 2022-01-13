@@ -1,7 +1,7 @@
 <template lang="pug">
   div
-    h2.text-center.black--text App
-    p The App is available for <a href="https://apps.apple.com/us/app/winter-games-2022/id1599727786" target="_blank" >Iphone @App Store</a> and for <a href="https://play.google.com/store/apps/details?id=com.quadriq.pksport" target="_blank" >Android @Google Play Store</a>. This is a free and unofficial app developed by fans for fans. Best app to follow the olympics.
+    h2.ma-4.text-center.black--text App
+    p.body-1 The App is available for <a href="https://apps.apple.com/us/app/winter-games-2022/id1599727786" target="_blank" >Iphone @App Store</a> and for <a href="https://play.google.com/store/apps/details?id=com.quadriq.pksport" target="_blank" >Android @Google Play Store</a>. This is a free and unofficial app developed by fans for fans. Best app to follow the olympics.
       
       
 </template>

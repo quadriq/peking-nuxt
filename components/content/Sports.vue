@@ -1,6 +1,6 @@
 <template lang="pug">
   div
-    h2.text-center.black--text Sports
+    h2.ma-4.text-center.black--text Sports
     v-row
       v-card.d-inline-flex.pa-4.ma-4.deep-purple.lighten-5(v-for="(value, key) in sports" :key="key")
           v-row.align-center
