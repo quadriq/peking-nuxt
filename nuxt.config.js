@@ -34,6 +34,7 @@ export default {
     buildModules: [
         // https://go.nuxtjs.dev/vuetify
         '@nuxtjs/vuetify',
+        '@nuxtjs/google-analytics'
     ],
 
     // Modules: https://go.nuxtjs.dev/config-modules
@@ -67,5 +68,9 @@ export default {
         hostname: 'https://games2022.app',
         gzip: true,
         exclude: []
+    },
+
+    googleAnalytics: {
+        id: 'G-6BB4Q34N3X'
     }
 }
