@@ -20,7 +20,7 @@
               h1.mb-2.font-weight-bold.white--text
                 | Follow Winter Olympics 2022
               p.mb-2.font-weight-bold.white--text
-                | Unoficial app for  Winter games in Beijing/Peking
+                | Unofficial app for Winter games in Beijing/Peking
               v-btn(
                     large
                     href="https://apps.apple.com/us/app/winter-games-2022/id1599727786"
@@ -70,7 +70,7 @@
     background: #607df9;
     /* background: url('~/assets/images/bg /header.jpg') no-repeat center fixed !important;
     background-size: 100% 100%; */
-    min-height: 600px;
+    min-height: 700px;
     display: flex;
     align-items: center;
 }
