@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/appgallery_policy", {data:[{}],fetch:{},mutations:void 0});
